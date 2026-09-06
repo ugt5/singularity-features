@@ -1,29 +1,35 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Мой сайт</title>
-
-    <style>
-        body {
-            margin: 0;
-            background: #0f0f0f;
-            color: white;
-            font-family: Arial, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-        }
-
-        h1 {
-            font-size: 50px;
-        }
-    </style>
+  <meta charset="utf-8" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <script src="https://www.mspaint.cc/widgets/obsidian.js"></script>
+  <style>
+    *, body, Obsidian {
+      font-family: 'JetBrains Mono', monospace !important;
+    }
+    .no-scrollbar {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+    .no-scrollbar::-webkit-scrollbar {
+      width: 0px;
+      height: 0px;
+      display: none;
+    }
+  </style>
 </head>
-
-<body>
-    <h1>Привет 👋</h1>
+<body class="bg-neutral-950 text-white min-h-screen flex items-center justify-center p-6">
+  <div class="w-full max-w-4xl flex items-center justify-center">
+    <Obsidian
+      title="Singularity"
+      footer="Singularity | FTAP |"
+      icon="./SingularityIcon.png"
+      ui-data-src="./extracted-menu.json">
+    </Obsidian>
+  </div>
 </body>
 </html>
