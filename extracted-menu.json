@@ -17,12 +17,15 @@
           ],
           "Unknown": []
         },
-        "icon": "house",
+        "icon": "Ellipsis",
         "groupboxIcons": {
           "Left": {
+            "0": "",
             "Greetings": "crown"
           },
           "Right": {
+            "0": "",
+            "1": "",
             "Statistics": "chart-bar",
             "Helper": "square-plus"
           },
@@ -50,12 +53,15 @@
           ],
           "Unknown": []
         },
-        "icon": "shield-plus",
+        "icon": "Ellipsis",
         "groupboxIcons": {
           "Left": {
+            "0": "",
             "Antis": "brick-wall-shield"
           },
           "Right": {
+            "0": "",
+            "1": "",
             "Miscellaneous": "bolt",
             "Config": "settings"
           },
@@ -83,13 +89,16 @@
           ],
           "Unknown": []
         },
-        "icon": "crosshair",
+        "icon": "Ellipsis",
         "groupboxIcons": {
           "Left": {
+            "0": "",
+            "1": "",
             "Target": "circle-user-round",
             "Apply": "zap"
           },
           "Right": {
+            "0": "",
             "Method Settings": "sliders-horizontal"
           },
           "Unknown": {}
@@ -111,7 +120,7 @@
           "Left": [],
           "Unknown": []
         },
-        "icon": "target",
+        "icon": "Ellipsis",
         "groupboxIcons": {
           "Left": {},
           "Right": {},
@@ -144,12 +153,15 @@
           ],
           "Unknown": []
         },
-        "icon": "swords",
+        "icon": "Ellipsis",
         "groupboxIcons": {
           "Left": {
+            "0": "",
             "Grabs": "hand-grab"
           },
           "Right": {
+            "0": "",
+            "1": "",
             "Auras": "sparkles",
             "Line": "spline"
           },
@@ -157,7 +169,7 @@
         },
         "tabboxIcons": {
           "Left": {
-            "Server": "layout-grid"
+            "Server": ""
           },
           "Right": {},
           "Unknown": {}
@@ -179,12 +191,15 @@
           ],
           "Unknown": []
         },
-        "icon": "user-cog",
+        "icon": "Ellipsis",
         "groupboxIcons": {
           "Left": {
+            "0": "",
             "Local-Player": "user-pen"
           },
           "Right": {
+            "0": "",
+            "1": "",
             "Teleport": "square-arrow-right-exit",
             "Players": "users"
           },
@@ -217,12 +232,15 @@
           ],
           "Unknown": []
         },
-        "icon": "scan-eye",
+        "icon": "Ellipsis",
         "groupboxIcons": {
           "Left": {
+            "0": "",
             "Ambient": "mountain"
           },
           "Right": {
+            "0": "",
+            "1": "",
             "Camera": "camera",
             "Custom Blackhole": "sparkle"
           },
@@ -230,7 +248,7 @@
         },
         "tabboxIcons": {
           "Left": {
-            "ESP's": "layout-grid"
+            "ESP's": ""
           },
           "Right": {},
           "Unknown": {}
@@ -251,12 +269,14 @@
           ],
           "Unknown": []
         },
-        "icon": "scroll",
+        "icon": "Ellipsis",
         "groupboxIcons": {
           "Left": {
+            "0": "",
             "Whitelist": "user-round-check"
           },
           "Right": {
+            "0": "",
             "Immunitylist": "shield-user"
           },
           "Unknown": {}
@@ -289,12 +309,16 @@
           ],
           "Unknown": []
         },
-        "icon": "layers",
+        "icon": "Ellipsis",
         "groupboxIcons": {
           "Left": {
+            "0": "",
             "AimBot": "circle-plus"
           },
           "Right": {
+            "0": "",
+            "1": "",
+            "2": "",
             "Autos": "bot",
             "SilentAim": "circle-plus",
             "TriggerBot": "mouse-left"
@@ -303,7 +327,7 @@
         },
         "tabboxIcons": {
           "Left": {
-            "Gamepass": "dollar-sign"
+            "Gamepass": ""
           },
           "Right": {},
           "Unknown": {}
@@ -320,7 +344,7 @@
           "Left": [],
           "Unknown": []
         },
-        "icon": "shapes",
+        "icon": "Ellipsis",
         "groupboxIcons": {
           "Left": {},
           "Right": {},
@@ -348,7 +372,7 @@
           "Left": [],
           "Unknown": []
         },
-        "icon": "keyboard",
+        "icon": "Ellipsis",
         "groupboxIcons": {
           "Left": {},
           "Right": {},
@@ -356,7 +380,7 @@
         },
         "tabboxIcons": {
           "Left": {
-            "Local-Player": "layout-grid"
+            "Local-Player": ""
           },
           "Right": {},
           "Unknown": {}
@@ -379,13 +403,17 @@
           ],
           "Unknown": []
         },
-        "icon": "bell-dot",
+        "icon": "Ellipsis",
         "groupboxIcons": {
           "Left": {
+            "0": "",
+            "1": "",
             "Everyone": "users-round",
             "Whitelist": "user-round-check"
           },
           "Right": {
+            "0": "",
+            "1": "",
             "Target": "circle-user-round",
             "Immunitylist": "shield-user"
           },
@@ -416,14 +444,20 @@
           ],
           "Unknown": []
         },
-        "icon": "settings",
+        "icon": "Ellipsis",
         "groupboxIcons": {
           "Left": {
+            "0": "",
+            "1": "",
+            "2": "",
             "Menu": "menu",
             "Background": "image",
             "Themes": "palette"
           },
           "Right": {
+            "0": "",
+            "1": "",
+            "2": "",
             "Display": "monitor",
             "Notifications": "bell-dot",
             "Configs": "folder-cog"
@@ -458,7 +492,7 @@
         "Text": "",
         "LockSize": false
       },
-      "icon": "house",
+      "icon": "Ellipsis",
       "groupboxes": {
         "Right": {
           "Statistics": {
@@ -506,7 +540,7 @@
             "dependencyBoxes": [],
             "name": "Statistics",
             "side": "Right",
-            "icon": "chart-bar",
+            "icon": "ChartNoAxesCombinedIcon",
             "collapsed": false,
             "disableCollapsing": false
           },
@@ -576,7 +610,7 @@
             "dependencyBoxes": [],
             "name": "Helper",
             "side": "Right",
-            "icon": "square-plus",
+            "icon": "SquarePlusIcon",
             "collapsed": false,
             "disableCollapsing": false
           }
@@ -649,7 +683,7 @@
             "dependencyBoxes": [],
             "name": "Greetings",
             "side": "Left",
-            "icon": "crown",
+            "icon": "ChessQueenIcon",
             "collapsed": false,
             "disableCollapsing": false
           }
@@ -675,7 +709,7 @@
         "Text": "",
         "LockSize": false
       },
-      "icon": "shield-plus",
+      "icon": "Ellipsis",
       "groupboxes": {
         "Right": {
           "Miscellaneous": {
@@ -778,7 +812,7 @@
             "dependencyBoxes": [],
             "name": "Miscellaneous",
             "side": "Right",
-            "icon": "bolt",
+            "icon": "BoltIcon",
             "collapsed": false,
             "disableCollapsing": false
           },
@@ -807,7 +841,7 @@
             "dependencyBoxes": [],
             "name": "Config",
             "side": "Right",
-            "icon": "settings",
+            "icon": "SettingsIcon",
             "collapsed": false,
             "disableCollapsing": false
           }
@@ -1086,7 +1120,7 @@
             "dependencyBoxes": [],
             "name": "Antis",
             "side": "Left",
-            "icon": "brick-wall-shield",
+            "icon": "BrickWallShieldIcon",
             "collapsed": false,
             "disableCollapsing": false
           }
@@ -1112,7 +1146,7 @@
         "Text": "",
         "LockSize": false
       },
-      "icon": "crosshair",
+      "icon": "Ellipsis",
       "groupboxes": {
         "Right": {
           "Method Settings": {
@@ -1139,7 +1173,7 @@
             "dependencyBoxes": [],
             "name": "Method Settings",
             "side": "Right",
-            "icon": "sliders-horizontal",
+            "icon": "AppleIcon",
             "collapsed": false,
             "disableCollapsing": false
           }
@@ -1187,7 +1221,7 @@
             "dependencyBoxes": [],
             "name": "Target",
             "side": "Left",
-            "icon": "circle-user-round",
+            "icon": "CircleUserRoundIcon",
             "collapsed": false,
             "disableCollapsing": false
           },
@@ -1240,7 +1274,7 @@
             "dependencyBoxes": [],
             "name": "Apply",
             "side": "Left",
-            "icon": "zap",
+            "icon": "DockIcon",
             "collapsed": false,
             "disableCollapsing": false
           }
@@ -1266,7 +1300,7 @@
         "Text": "",
         "LockSize": false
       },
-      "icon": "target",
+      "icon": "Ellipsis",
       "groupboxes": {
         "Right": {},
         "Left": {},
@@ -1318,7 +1352,7 @@
                     "disabled": false
                   }
                 ],
-                "icon": "spline"
+                "icon": "SplineIcon"
               },
               "Packets": {
                 "type": "Tab",
@@ -1389,10 +1423,10 @@
                     "disabled": false
                   }
                 ],
-                "icon": "server"
+                "icon": "PackageIcon"
               }
             },
-            "icon": "layout-grid"
+            "icon": ""
           }
         },
         "Unknown": []
@@ -1404,7 +1438,7 @@
         "Text": "",
         "LockSize": false
       },
-      "icon": "swords",
+      "icon": "Ellipsis",
       "groupboxes": {
         "Right": {
           "Auras": {
@@ -1434,7 +1468,7 @@
             "dependencyBoxes": [],
             "name": "Auras",
             "side": "Right",
-            "icon": "sparkles",
+            "icon": "SaladIcon",
             "collapsed": false,
             "disableCollapsing": false
           },
@@ -1473,7 +1507,7 @@
             "dependencyBoxes": [],
             "name": "Line",
             "side": "Right",
-            "icon": "spline",
+            "icon": "SplineIcon",
             "collapsed": false,
             "disableCollapsing": false
           }
@@ -1510,7 +1544,7 @@
             "dependencyBoxes": [],
             "name": "Grabs",
             "side": "Left",
-            "icon": "hand-grab",
+            "icon": "HandGrabIcon",
             "collapsed": false,
             "disableCollapsing": false
           }
@@ -1536,7 +1570,7 @@
         "Text": "",
         "LockSize": false
       },
-      "icon": "user-cog",
+      "icon": "Ellipsis",
       "groupboxes": {
         "Right": {
           "Teleport": {
@@ -1603,7 +1637,7 @@
             "dependencyBoxes": [],
             "name": "Teleport",
             "side": "Right",
-            "icon": "square-arrow-right-exit",
+            "icon": "HouseIcon",
             "collapsed": false,
             "disableCollapsing": false
           },
@@ -1662,7 +1696,7 @@
             "dependencyBoxes": [],
             "name": "Players",
             "side": "Right",
-            "icon": "users",
+            "icon": "UsersIcon",
             "collapsed": false,
             "disableCollapsing": false
           }
@@ -1864,7 +1898,7 @@
             "dependencyBoxes": [],
             "name": "Local-Player",
             "side": "Left",
-            "icon": "user-pen",
+            "icon": "UserIcon",
             "collapsed": false,
             "disableCollapsing": false
           }
@@ -2076,7 +2110,7 @@
                     "disabled": false
                   }
                 ],
-                "icon": "eye"
+                "icon": "ToggleRightIcon"
               },
               "Config": {
                 "type": "Tab",
@@ -2104,10 +2138,10 @@
                     "disabled": false
                   }
                 ],
-                "icon": "settings"
+                "icon": "SettingsIcon"
               }
             },
-            "icon": "layout-grid"
+            "icon": ""
           }
         },
         "Unknown": []
@@ -2119,7 +2153,7 @@
         "Text": "",
         "LockSize": false
       },
-      "icon": "scan-eye",
+      "icon": "Ellipsis",
       "groupboxes": {
         "Right": {
           "Camera": {
@@ -2203,7 +2237,7 @@
             "dependencyBoxes": [],
             "name": "Camera",
             "side": "Right",
-            "icon": "camera",
+            "icon": "CameraIcon",
             "collapsed": false,
             "disableCollapsing": false
           },
@@ -2223,7 +2257,7 @@
             "dependencyBoxes": [],
             "name": "Custom Blackhole",
             "side": "Right",
-            "icon": "sparkle",
+            "icon": "SparkleIcon",
             "collapsed": false,
             "disableCollapsing": false
           }
@@ -2327,7 +2361,7 @@
             "dependencyBoxes": [],
             "name": "Ambient",
             "side": "Left",
-            "icon": "mountain",
+            "icon": "MountainIcon",
             "collapsed": false,
             "disableCollapsing": false
           }
@@ -2353,7 +2387,7 @@
         "Text": "",
         "LockSize": false
       },
-      "icon": "scroll",
+      "icon": "Ellipsis",
       "groupboxes": {
         "Right": {
           "Immunitylist": {
@@ -2375,7 +2409,7 @@
             "dependencyBoxes": [],
             "name": "Immunitylist",
             "side": "Right",
-            "icon": "shield-user",
+            "icon": "ShieldUserIcon",
             "collapsed": false,
             "disableCollapsing": false
           }
@@ -2417,7 +2451,7 @@
             "dependencyBoxes": [],
             "name": "Whitelist",
             "side": "Left",
-            "icon": "user-round-check",
+            "icon": "ShieldCheckIcon",
             "collapsed": false,
             "disableCollapsing": false
           }
@@ -2487,7 +2521,7 @@
                     "disabled": false
                   }
                 ],
-                "icon": "dollar-sign"
+                "icon": "DollarSignIcon"
               },
               "Settings": {
                 "type": "Tab",
@@ -2652,10 +2686,10 @@
                     }
                   }
                 ],
-                "icon": "settings"
+                "icon": "SettingsIcon"
               }
             },
-            "icon": "dollar-sign"
+            "icon": ""
           }
         },
         "Unknown": []
@@ -2667,7 +2701,7 @@
         "Text": "",
         "LockSize": false
       },
-      "icon": "layers",
+      "icon": "Ellipsis",
       "groupboxes": {
         "Right": {
           "Autos": {
@@ -2723,7 +2757,7 @@
             "dependencyBoxes": [],
             "name": "Autos",
             "side": "Right",
-            "icon": "bot",
+            "icon": "BotIcon",
             "collapsed": false,
             "disableCollapsing": false
           },
@@ -2840,7 +2874,7 @@
             "dependencyBoxes": [],
             "name": "SilentAim",
             "side": "Right",
-            "icon": "circle-plus",
+            "icon": "CrosshairIcon",
             "collapsed": false,
             "disableCollapsing": false
           },
@@ -2902,7 +2936,7 @@
             "dependencyBoxes": [],
             "name": "TriggerBot",
             "side": "Right",
-            "icon": "mouse-left",
+            "icon": "MouseLeftIcon",
             "collapsed": false,
             "disableCollapsing": false
           }
@@ -3035,7 +3069,7 @@
             "dependencyBoxes": [],
             "name": "AimBot",
             "side": "Left",
-            "icon": "circle-plus",
+            "icon": "CrosshairIcon",
             "collapsed": false,
             "disableCollapsing": false
           }
@@ -3061,7 +3095,7 @@
         "Text": "",
         "LockSize": false
       },
-      "icon": "shapes",
+      "icon": "Ellipsis",
       "groupboxes": {
         "Right": {},
         "Left": {},
@@ -3166,7 +3200,7 @@
                     }
                   }
                 ],
-                "icon": "user"
+                "icon": "UserIcon"
               },
               "Config": {
                 "type": "Tab",
@@ -3460,10 +3494,10 @@
                     "disabled": false
                   }
                 ],
-                "icon": "settings"
+                "icon": "SettingsIcon"
               }
             },
-            "icon": "layout-grid"
+            "icon": ""
           }
         },
         "Unknown": []
@@ -3475,7 +3509,7 @@
         "Text": "",
         "LockSize": false
       },
-      "icon": "keyboard",
+      "icon": "Ellipsis",
       "groupboxes": {
         "Right": {},
         "Left": {},
@@ -3500,7 +3534,7 @@
         "Text": "",
         "LockSize": false
       },
-      "icon": "bell-dot",
+      "icon": "Ellipsis",
       "groupboxes": {
         "Right": {
           "Target": {
@@ -3564,7 +3598,7 @@
             "dependencyBoxes": [],
             "name": "Target",
             "side": "Right",
-            "icon": "circle-user-round",
+            "icon": "CircleUserRoundIcon",
             "collapsed": false,
             "disableCollapsing": false
           },
@@ -3584,7 +3618,7 @@
             "dependencyBoxes": [],
             "name": "Immunitylist",
             "side": "Right",
-            "icon": "shield-user",
+            "icon": "ShieldUserIcon",
             "collapsed": false,
             "disableCollapsing": false
           }
@@ -3651,7 +3685,7 @@
             "dependencyBoxes": [],
             "name": "Everyone",
             "side": "Left",
-            "icon": "users-round",
+            "icon": "UsersRoundIcon",
             "collapsed": false,
             "disableCollapsing": false
           },
@@ -3716,7 +3750,7 @@
             "dependencyBoxes": [],
             "name": "Whitelist",
             "side": "Left",
-            "icon": "user-round-check",
+            "icon": "ShieldCheckIcon",
             "collapsed": false,
             "disableCollapsing": false
           }
@@ -3742,7 +3776,7 @@
         "Text": "",
         "LockSize": false
       },
-      "icon": "settings",
+      "icon": "Ellipsis",
       "groupboxes": {
         "Right": {
           "Display": {
@@ -3798,7 +3832,7 @@
             "dependencyBoxes": [],
             "name": "Display",
             "side": "Right",
-            "icon": "monitor",
+            "icon": "MonitorIcon",
             "collapsed": false,
             "disableCollapsing": false
           },
@@ -3866,7 +3900,7 @@
             "dependencyBoxes": [],
             "name": "Notifications",
             "side": "Right",
-            "icon": "bell-dot",
+            "icon": "BellRingIcon",
             "collapsed": false,
             "disableCollapsing": false
           },
@@ -3932,7 +3966,7 @@
             "dependencyBoxes": [],
             "name": "Configs",
             "side": "Right",
-            "icon": "folder-cog",
+            "icon": "FolderCogIcon",
             "collapsed": false,
             "disableCollapsing": false
           }
@@ -4015,7 +4049,7 @@
             "dependencyBoxes": [],
             "name": "Menu",
             "side": "Left",
-            "icon": "menu",
+            "icon": "WrenchIcon",
             "collapsed": false,
             "disableCollapsing": false
           },
@@ -4051,7 +4085,7 @@
             "dependencyBoxes": [],
             "name": "Background",
             "side": "Left",
-            "icon": "image",
+            "icon": "ImageIcon",
             "collapsed": false,
             "disableCollapsing": false
           },
@@ -4084,7 +4118,7 @@
             "dependencyBoxes": [],
             "name": "Themes",
             "side": "Left",
-            "icon": "palette",
+            "icon": "PaintbrushIcon",
             "collapsed": false,
             "disableCollapsing": false
           }
