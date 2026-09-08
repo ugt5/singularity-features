@@ -1,1 +1,1 @@
-A website that contains all the functions of my script
+A website that contains all the functions of script
