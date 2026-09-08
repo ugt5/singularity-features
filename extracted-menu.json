@@ -16,6 +16,22 @@
             "Greetings"
           ],
           "Unknown": []
+        },
+        "icon": "house",
+        "groupboxIcons": {
+          "Left": {
+            "Greetings": "crown"
+          },
+          "Right": {
+            "Statistics": "chart-bar",
+            "Helper": "square-plus"
+          },
+          "Unknown": {}
+        },
+        "tabboxIcons": {
+          "Left": {},
+          "Right": {},
+          "Unknown": {}
         }
       },
       "<b>Defense</b>": {
@@ -33,6 +49,22 @@
             "Antis"
           ],
           "Unknown": []
+        },
+        "icon": "shield-plus",
+        "groupboxIcons": {
+          "Left": {
+            "Antis": "brick-wall-shield"
+          },
+          "Right": {
+            "Miscellaneous": "bolt",
+            "Config": "settings"
+          },
+          "Unknown": {}
+        },
+        "tabboxIcons": {
+          "Left": {},
+          "Right": {},
+          "Unknown": {}
         }
       },
       "<b>Ownership Target</b>": {
@@ -50,6 +82,22 @@
             "Apply"
           ],
           "Unknown": []
+        },
+        "icon": "crosshair",
+        "groupboxIcons": {
+          "Left": {
+            "Target": "circle-user-round",
+            "Apply": "zap"
+          },
+          "Right": {
+            "Method Settings": "sliders-horizontal"
+          },
+          "Unknown": {}
+        },
+        "tabboxIcons": {
+          "Left": {},
+          "Right": {},
+          "Unknown": {}
         }
       },
       "<b>Blobman Target</b>": {
@@ -62,6 +110,17 @@
           "Right": [],
           "Left": [],
           "Unknown": []
+        },
+        "icon": "target",
+        "groupboxIcons": {
+          "Left": {},
+          "Right": {},
+          "Unknown": {}
+        },
+        "tabboxIcons": {
+          "Left": {},
+          "Right": {},
+          "Unknown": {}
         }
       },
       "<b>Combat</b>": {
@@ -84,6 +143,24 @@
             "Grabs"
           ],
           "Unknown": []
+        },
+        "icon": "swords",
+        "groupboxIcons": {
+          "Left": {
+            "Grabs": "hand-grab"
+          },
+          "Right": {
+            "Auras": "sparkles",
+            "Line": "spline"
+          },
+          "Unknown": {}
+        },
+        "tabboxIcons": {
+          "Left": {
+            "Server": "layout-grid"
+          },
+          "Right": {},
+          "Unknown": {}
         }
       },
       "<b>Player</b>": {
@@ -101,6 +178,22 @@
             "Local-Player"
           ],
           "Unknown": []
+        },
+        "icon": "user-cog",
+        "groupboxIcons": {
+          "Left": {
+            "Local-Player": "user-pen"
+          },
+          "Right": {
+            "Teleport": "square-arrow-right-exit",
+            "Players": "users"
+          },
+          "Unknown": {}
+        },
+        "tabboxIcons": {
+          "Left": {},
+          "Right": {},
+          "Unknown": {}
         }
       },
       "<b>Visual</b>": {
@@ -123,6 +216,24 @@
             "Ambient"
           ],
           "Unknown": []
+        },
+        "icon": "scan-eye",
+        "groupboxIcons": {
+          "Left": {
+            "Ambient": "mountain"
+          },
+          "Right": {
+            "Camera": "camera",
+            "Custom Blackhole": "sparkle"
+          },
+          "Unknown": {}
+        },
+        "tabboxIcons": {
+          "Left": {
+            "ESP's": "layout-grid"
+          },
+          "Right": {},
+          "Unknown": {}
         }
       },
       "<b>Lists</b>": {
@@ -132,9 +243,28 @@
           "Unknown": []
         },
         "groupboxes": {
-          "Right": [],
-          "Left": [],
+          "Right": [
+            "Immunitylist"
+          ],
+          "Left": [
+            "Whitelist"
+          ],
           "Unknown": []
+        },
+        "icon": "scroll",
+        "groupboxIcons": {
+          "Left": {
+            "Whitelist": "user-round-check"
+          },
+          "Right": {
+            "Immunitylist": "shield-user"
+          },
+          "Unknown": {}
+        },
+        "tabboxIcons": {
+          "Left": {},
+          "Right": {},
+          "Unknown": {}
         }
       },
       "<b>Misc</b>": {
@@ -158,6 +288,25 @@
             "AimBot"
           ],
           "Unknown": []
+        },
+        "icon": "layers",
+        "groupboxIcons": {
+          "Left": {
+            "AimBot": "circle-plus"
+          },
+          "Right": {
+            "Autos": "bot",
+            "SilentAim": "circle-plus",
+            "TriggerBot": "mouse-left"
+          },
+          "Unknown": {}
+        },
+        "tabboxIcons": {
+          "Left": {
+            "Gamepass": "dollar-sign"
+          },
+          "Right": {},
+          "Unknown": {}
         }
       },
       "<b>Toy</b>": {
@@ -170,6 +319,17 @@
           "Right": [],
           "Left": [],
           "Unknown": []
+        },
+        "icon": "shapes",
+        "groupboxIcons": {
+          "Left": {},
+          "Right": {},
+          "Unknown": {}
+        },
+        "tabboxIcons": {
+          "Left": {},
+          "Right": {},
+          "Unknown": {}
         }
       },
       "<b>Keybinds</b>": {
@@ -187,6 +347,19 @@
           "Right": [],
           "Left": [],
           "Unknown": []
+        },
+        "icon": "keyboard",
+        "groupboxIcons": {
+          "Left": {},
+          "Right": {},
+          "Unknown": {}
+        },
+        "tabboxIcons": {
+          "Left": {
+            "Local-Player": "layout-grid"
+          },
+          "Right": {},
+          "Unknown": {}
         }
       },
       "<b>Notifications</b>": {
@@ -205,6 +378,23 @@
             "Whitelist"
           ],
           "Unknown": []
+        },
+        "icon": "bell-dot",
+        "groupboxIcons": {
+          "Left": {
+            "Everyone": "users-round",
+            "Whitelist": "user-round-check"
+          },
+          "Right": {
+            "Target": "circle-user-round",
+            "Immunitylist": "shield-user"
+          },
+          "Unknown": {}
+        },
+        "tabboxIcons": {
+          "Left": {},
+          "Right": {},
+          "Unknown": {}
         }
       },
       "<b>Settings</b>": {
@@ -216,13 +406,34 @@
         "groupboxes": {
           "Right": [
             "Display",
-            "Notifications"
+            "Notifications",
+            "Configs"
           ],
           "Left": [
             "Menu",
-            "Background"
+            "Background",
+            "Themes"
           ],
           "Unknown": []
+        },
+        "icon": "settings",
+        "groupboxIcons": {
+          "Left": {
+            "Menu": "menu",
+            "Background": "image",
+            "Themes": "palette"
+          },
+          "Right": {
+            "Display": "monitor",
+            "Notifications": "bell-dot",
+            "Configs": "folder-cog"
+          },
+          "Unknown": {}
+        },
+        "tabboxIcons": {
+          "Left": {},
+          "Right": {},
+          "Unknown": {}
         }
       }
     }
@@ -256,31 +467,39 @@
             "elements": [
               {
                 "type": "Label",
-                "index": "string.format(...)",
+                "index": "Current time: <font color=\"#ffffff\"><b>%s</b></font>",
                 "visible": true,
-                "text": "string.format(...)",
-                "properties": {}
+                "text": "Current time: <font color=\"#ffffff\"><b>%s</b></font>",
+                "properties": {
+                  "doesWrap": false
+                }
               },
               {
                 "type": "Label",
                 "index": "Current script version: <font color=\"#ffffff\"><b>v1.0</b></font>",
                 "visible": true,
                 "text": "Current script version: <font color=\"#ffffff\"><b>v1.0</b></font>",
-                "properties": {}
+                "properties": {
+                  "doesWrap": false
+                }
               },
               {
                 "type": "Label",
-                "index": "string.format(...)",
+                "index": "Included features: <font color=\"#ffffff\"><b>%d</b></font>",
                 "visible": true,
-                "text": "string.format(...)",
-                "properties": {}
+                "text": "Included features: <font color=\"#ffffff\"><b>%d</b></font>",
+                "properties": {
+                  "doesWrap": false
+                }
               },
               {
                 "type": "Label",
-                "index": "string.format(...)",
+                "index": "Kicked players: <font color=\"#ffffff\"><b>%d</b></font>",
                 "visible": true,
-                "text": "string.format(...)",
-                "properties": {}
+                "text": "Kicked players: <font color=\"#ffffff\"><b>%d</b></font>",
+                "properties": {
+                  "doesWrap": false
+                }
               }
             ],
             "order": 1,
@@ -368,11 +587,31 @@
             "type": "Groupbox",
             "elements": [
               {
-                "type": "Label",
-                "index": "string.format(...)",
+                "type": "UIPassthrough",
+                "index": "HomeAvatar",
                 "visible": true,
-                "text": "string.format(...)",
-                "properties": {}
+                "text": "",
+                "properties": {
+                  "height": 210
+                }
+              },
+              {
+                "type": "UIPassthrough",
+                "index": "HomeAvatar",
+                "visible": true,
+                "text": "",
+                "properties": {
+                  "height": 210
+                }
+              },
+              {
+                "type": "UIPassthrough",
+                "index": "HomeAvatar",
+                "visible": true,
+                "text": "",
+                "properties": {
+                  "height": 210
+                }
               },
               {
                 "type": "Divider",
@@ -561,298 +800,6 @@
                     "Anti Kick"
                   ]
                 },
-                "disabled": false
-              },
-              {
-                "type": "Divider",
-                "index": null,
-                "visible": true,
-                "text": "Anti Grab [GUCCI] Settings",
-                "properties": {
-                  "marginTop": 6,
-                  "marginBottom": 0,
-                  "text": "Anti Grab [GUCCI] Settings"
-                }
-              },
-              {
-                "type": "Divider",
-                "index": null,
-                "visible": true,
-                "text": "Anti Banana Settings",
-                "properties": {
-                  "marginTop": 6,
-                  "marginBottom": 0,
-                  "text": "Anti Banana Settings"
-                }
-              },
-              {
-                "type": "Divider",
-                "index": null,
-                "visible": true,
-                "text": "Anti Input Settings",
-                "properties": {
-                  "marginTop": 6,
-                  "marginBottom": 0,
-                  "text": "Anti Input Settings"
-                }
-              },
-              {
-                "type": "Divider",
-                "index": null,
-                "visible": true,
-                "text": "Loop TP Settings",
-                "properties": {
-                  "marginTop": 6,
-                  "marginBottom": 0,
-                  "text": "Loop TP Settings"
-                }
-              },
-              {
-                "type": "Divider",
-                "index": null,
-                "visible": true,
-                "text": "Anti Kick Settings",
-                "properties": {
-                  "marginTop": 6,
-                  "marginBottom": 0,
-                  "text": "Anti Kick Settings"
-                }
-              },
-              {
-                "type": "Dropdown",
-                "index": "AntiKickItem",
-                "visible": true,
-                "text": "Anti Kick Toy",
-                "properties": {
-                  "values": [
-                    "Shuriken",
-                    "Pickaxe",
-                    "Pencil"
-                  ]
-                },
-                "value": "Shuriken",
-                "disabled": false
-              },
-              {
-                "type": "Dropdown",
-                "index": "AntiKickPencilPosition",
-                "visible": true,
-                "text": "Pencil Position",
-                "properties": {
-                  "values": [
-                    "on the back",
-                    "on the torso"
-                  ]
-                },
-                "disabled": false
-              },
-              {
-                "type": "Slider",
-                "index": "AntiKickPencilX",
-                "visible": true,
-                "text": "Pencil X Distance",
-                "properties": {
-                  "min": -3,
-                  "max": 3,
-                  "rounding": 2
-                },
-                "disabled": false
-              },
-              {
-                "type": "Slider",
-                "index": "AntiKickPencilY",
-                "visible": true,
-                "text": "Pencil Y Distance",
-                "properties": {
-                  "min": -3,
-                  "max": 3,
-                  "rounding": 2
-                },
-                "disabled": false
-              },
-              {
-                "type": "Slider",
-                "index": "AntiKickPencilZ",
-                "visible": true,
-                "text": "Pencil Z Distance",
-                "properties": {
-                  "min": 0,
-                  "max": 20,
-                  "rounding": 2
-                },
-                "disabled": false
-              },
-              {
-                "type": "Slider",
-                "index": "AntiKickPencilAngle",
-                "visible": true,
-                "text": "Pencil Angle",
-                "properties": {
-                  "min": 0,
-                  "max": 360,
-                  "rounding": 1
-                },
-                "disabled": false
-              },
-              {
-                "type": "Slider",
-                "index": "AntiKickPencilYaw",
-                "visible": true,
-                "text": "Pencil Rotation",
-                "properties": {
-                  "min": 0,
-                  "max": 360,
-                  "rounding": 1
-                },
-                "disabled": false
-              },
-              {
-                "type": "Slider",
-                "index": "AntiKickTransparency",
-                "visible": true,
-                "text": "Transparency",
-                "properties": {
-                  "min": 0,
-                  "max": 1,
-                  "rounding": 2,
-                  "compact": true
-                },
-                "disabled": false
-              },
-              {
-                "type": "Slider",
-                "index": "AntiInputDelay",
-                "visible": true,
-                "text": "Delay",
-                "properties": {
-                  "min": 0,
-                  "max": 1,
-                  "rounding": 2,
-                  "compact": true
-                },
-                "disabled": false
-              },
-              {
-                "type": "Slider",
-                "index": "LoopTPDefaultDelay",
-                "visible": true,
-                "text": "Delay",
-                "properties": {
-                  "min": 0,
-                  "max": 1,
-                  "rounding": 2,
-                  "compact": true
-                },
-                "disabled": false
-              },
-              {
-                "type": "Toggle",
-                "index": "AutoGucciBlobmanHidden",
-                "visible": false,
-                "text": "Anti Gucci (Blobman)",
-                "properties": {
-                  "addons": [],
-                  "risky": false,
-                  "variant": "Checkbox"
-                },
-                "value": false,
-                "disabled": false
-              },
-              {
-                "type": "Toggle",
-                "index": "AutoGucciTrainHidden",
-                "visible": false,
-                "text": "Anti Gucci (Train)",
-                "properties": {
-                  "addons": [],
-                  "risky": false,
-                  "variant": "Checkbox"
-                },
-                "value": false,
-                "disabled": false
-              },
-              {
-                "type": "Dropdown",
-                "index": "AntiInputLagToy",
-                "visible": true,
-                "text": "Toy",
-                "properties": {
-                  "values": [
-                    "CupMugBrown",
-                    "CupMugWhite",
-                    "FoodBanana",
-                    "FoodBread",
-                    "FoodCakePink",
-                    "FoodCoconut",
-                    "FoodDippyEgg",
-                    "FoodDonut",
-                    "FoodFrenchFries",
-                    "FoodHamburger",
-                    "FoodHotdog",
-                    "FoodMayonnaise",
-                    "FoodMeatStick",
-                    "FoodMushroomPoison",
-                    "FoodPizzaCheese",
-                    "FoodPizzaPepperoni",
-                    "InstrumentBrassTrumpet",
-                    "InstrumentBrassVuvuzela",
-                    "InstrumentDrumBongos",
-                    "InstrumentDrumSnare",
-                    "InstrumentGuitarBanjo",
-                    "InstrumentGuitarLyre",
-                    "InstrumentGuitarUkulele",
-                    "InstrumentGuitarViolin",
-                    "InstrumentPianoMelodica",
-                    "InstrumentVoiceMicrophone",
-                    "InstrumentWoodwindOcarina",
-                    "InstrumentWoodwindSaxophone",
-                    "PoopPile",
-                    "PoopPileSparkle"
-                  ],
-                  "searchable": true
-                },
-                "disabled": false
-              },
-              {
-                "type": "Dropdown",
-                "index": "AntiGrabGucciType",
-                "visible": true,
-                "text": "Anti Grab [GUCCI] Type",
-                "properties": {
-                  "values": [
-                    "Blobman",
-                    "Train"
-                  ]
-                },
-                "value": 1,
-                "disabled": false
-              },
-              {
-                "type": "Dropdown",
-                "index": "LoopTPType",
-                "visible": true,
-                "text": "Loop TP Type",
-                "properties": {
-                  "values": [
-                    "Default",
-                    "Void"
-                  ]
-                },
-                "value": 1,
-                "disabled": false
-              },
-              {
-                "type": "Dropdown",
-                "index": "AntiBananaTypeDropdown",
-                "visible": true,
-                "text": "Anti Banana Type",
-                "properties": {
-                  "values": [
-                    "Delete Lags",
-                    "Sit"
-                  ]
-                },
-                "value": 1,
                 "disabled": false
               }
             ],
@@ -1173,45 +1120,6 @@
             "type": "Groupbox",
             "elements": [
               {
-                "type": "Toggle",
-                "index": "OwnershipTargetLock",
-                "visible": true,
-                "text": "Lock",
-                "properties": {
-                  "addons": [],
-                  "risky": false,
-                  "variant": "Checkbox"
-                },
-                "value": false,
-                "disabled": false
-              },
-              {
-                "type": "Toggle",
-                "index": "KickV3",
-                "visible": true,
-                "text": "Kick",
-                "properties": {
-                  "addons": [],
-                  "risky": false,
-                  "variant": "Checkbox"
-                },
-                "value": false,
-                "disabled": false
-              },
-              {
-                "type": "Toggle",
-                "index": "BringTarget",
-                "visible": true,
-                "text": "Bring",
-                "properties": {
-                  "addons": [],
-                  "risky": false,
-                  "variant": "Checkbox"
-                },
-                "value": false,
-                "disabled": false
-              },
-              {
                 "type": "Dropdown",
                 "index": "SelectedMethod",
                 "visible": true,
@@ -1224,33 +1132,6 @@
                   "multi": false
                 },
                 "value": "Lock",
-                "disabled": false
-              },
-              {
-                "type": "Divider",
-                "index": null,
-                "visible": true,
-                "text": "Kick Settings",
-                "properties": {
-                  "marginTop": 6,
-                  "marginBottom": 0,
-                  "text": "Kick Settings"
-                }
-              },
-              {
-                "type": "Dropdown",
-                "index": "KickMode",
-                "visible": true,
-                "text": "Mode",
-                "properties": {
-                  "values": [
-                    "Slower (But better)",
-                    "Normal",
-                    "Faster (But worse)"
-                  ],
-                  "multi": false
-                },
-                "value": "Normal",
                 "disabled": false
               }
             ],
@@ -1510,7 +1391,8 @@
                 ],
                 "icon": "server"
               }
-            }
+            },
+            "icon": "layout-grid"
           }
         },
         "Unknown": []
@@ -1545,97 +1427,6 @@
                   "multi": true,
                   "allownull": true
                 },
-                "disabled": false
-              },
-              {
-                "type": "Slider",
-                "index": "AuraRadiusSlider",
-                "visible": true,
-                "text": "Aura Radius",
-                "properties": {
-                  "min": 1,
-                  "max": 20,
-                  "rounding": 0
-                },
-                "value": 15,
-                "disabled": false
-              },
-              {
-                "type": "Toggle",
-                "index": "AuraMultiToggle",
-                "visible": true,
-                "text": "Toggle Aura",
-                "properties": {
-                  "addons": [],
-                  "risky": false,
-                  "variant": "Checkbox"
-                },
-                "value": false,
-                "disabled": false
-              },
-              {
-                "type": "Toggle",
-                "index": "TpToSpawnAura",
-                "visible": true,
-                "text": "Tp To Spawn",
-                "properties": {
-                  "addons": [],
-                  "risky": false,
-                  "variant": "Checkbox"
-                },
-                "value": false,
-                "disabled": false
-              },
-              {
-                "type": "Toggle",
-                "index": "FlingAura",
-                "visible": true,
-                "text": "Fling Aura",
-                "properties": {
-                  "addons": [],
-                  "risky": false,
-                  "variant": "Checkbox"
-                },
-                "value": false,
-                "disabled": false
-              },
-              {
-                "type": "Toggle",
-                "index": "KillAura",
-                "visible": true,
-                "text": "Kill Aura",
-                "properties": {
-                  "addons": [],
-                  "risky": false,
-                  "variant": "Checkbox"
-                },
-                "value": false,
-                "disabled": false
-              },
-              {
-                "type": "Toggle",
-                "index": "GrabAura",
-                "visible": true,
-                "text": "Grab Aura",
-                "properties": {
-                  "addons": [],
-                  "risky": false,
-                  "variant": "Checkbox"
-                },
-                "value": false,
-                "disabled": false
-              },
-              {
-                "type": "Toggle",
-                "index": "UnstickAura",
-                "visible": true,
-                "text": "Unstick",
-                "properties": {
-                  "addons": [],
-                  "risky": false,
-                  "variant": "Checkbox"
-                },
-                "value": false,
                 "disabled": false
               }
             ],
@@ -1712,149 +1503,6 @@
                   "multi": true,
                   "allownull": true
                 },
-                "disabled": false
-              },
-              {
-                "type": "Slider",
-                "index": "PerspectiveGrabSpeedSlider",
-                "visible": true,
-                "text": "Perspective Speed",
-                "properties": {
-                  "min": 50,
-                  "max": 150,
-                  "rounding": 0
-                },
-                "value": 100,
-                "disabled": false
-              },
-              {
-                "type": "Toggle",
-                "index": "GrabMultiToggle",
-                "visible": true,
-                "text": "Toggle Grab",
-                "properties": {
-                  "addons": [],
-                  "risky": false,
-                  "variant": "Checkbox"
-                },
-                "value": false,
-                "disabled": false
-              },
-              {
-                "type": "Toggle",
-                "index": "KillGrabToggle",
-                "visible": true,
-                "text": "Kill Grab",
-                "properties": {
-                  "addons": [],
-                  "risky": false,
-                  "variant": "Checkbox"
-                },
-                "value": false,
-                "disabled": false
-              },
-              {
-                "type": "Toggle",
-                "index": "MassLessGrabToggle",
-                "visible": true,
-                "text": "MassLess Grab",
-                "properties": {
-                  "addons": [],
-                  "risky": false,
-                  "variant": "Checkbox"
-                },
-                "value": false,
-                "disabled": false
-              },
-              {
-                "type": "Toggle",
-                "index": "PerspectiveGrabToggle",
-                "visible": true,
-                "text": "Perspective Grab",
-                "properties": {
-                  "addons": [],
-                  "risky": false,
-                  "variant": "Checkbox"
-                },
-                "value": false,
-                "disabled": false
-              },
-              {
-                "type": "Toggle",
-                "index": "PoisonGrabToggle",
-                "visible": true,
-                "text": "Poison Grab",
-                "properties": {
-                  "addons": [],
-                  "risky": false,
-                  "variant": "Checkbox"
-                },
-                "value": false,
-                "disabled": false
-              },
-              {
-                "type": "Toggle",
-                "index": "RadioactiveGrabToggle",
-                "visible": true,
-                "text": "Radioactive Grab",
-                "properties": {
-                  "addons": [],
-                  "risky": false,
-                  "variant": "Checkbox"
-                },
-                "value": false,
-                "disabled": false
-              },
-              {
-                "type": "Toggle",
-                "index": "FlingGrabToggle",
-                "visible": true,
-                "text": "Fling Grab",
-                "properties": {
-                  "addons": [],
-                  "risky": false,
-                  "variant": "Checkbox"
-                },
-                "value": false,
-                "disabled": false
-              },
-              {
-                "type": "Toggle",
-                "index": "NoclipGrabToggle",
-                "visible": true,
-                "text": "Noclip Grab",
-                "properties": {
-                  "addons": [],
-                  "risky": false,
-                  "variant": "Checkbox"
-                },
-                "value": false,
-                "disabled": false
-              },
-              {
-                "type": "Toggle",
-                "index": "RagdollGrabToggle",
-                "visible": true,
-                "text": "Ragdoll Grab",
-                "properties": {
-                  "addons": [],
-                  "risky": false,
-                  "variant": "Checkbox"
-                },
-                "value": false,
-                "disabled": false
-              },
-              {
-                "type": "Toggle",
-                "index": "SpinGrabToggle",
-                "visible": true,
-                "text": "Spin Grab",
-                "properties": {
-                  "addons": [],
-                  "risky": false,
-                  "variant": "Checkbox"
-                },
-                "value": false,
                 "disabled": false
               }
             ],
@@ -2454,323 +2102,12 @@
                     },
                     "value": "PCLD ESP",
                     "disabled": false
-                  },
-                  {
-                    "type": "Divider",
-                    "index": null,
-                    "visible": true,
-                    "text": "PCLD ESP Settings",
-                    "properties": {
-                      "marginTop": 6,
-                      "marginBottom": 0,
-                      "text": "PCLD ESP Settings"
-                    }
-                  },
-                  {
-                    "type": "Divider",
-                    "index": null,
-                    "visible": true,
-                    "text": "Name ESP Settings",
-                    "properties": {
-                      "marginTop": 6,
-                      "marginBottom": 0,
-                      "text": "Name ESP Settings"
-                    }
-                  },
-                  {
-                    "type": "Divider",
-                    "index": null,
-                    "visible": true,
-                    "text": "Player ESP Settings",
-                    "properties": {
-                      "marginTop": 6,
-                      "marginBottom": 0,
-                      "text": "Player ESP Settings"
-                    }
-                  },
-                  {
-                    "type": "Divider",
-                    "index": null,
-                    "visible": true,
-                    "text": "Sticky ESP Settings",
-                    "properties": {
-                      "marginTop": 6,
-                      "marginBottom": 0,
-                      "text": "Sticky ESP Settings"
-                    }
-                  },
-                  {
-                    "type": "Divider",
-                    "index": null,
-                    "visible": true,
-                    "text": "Blobman ESP Settings",
-                    "properties": {
-                      "marginTop": 6,
-                      "marginBottom": 0,
-                      "text": "Blobman ESP Settings"
-                    }
-                  },
-                  {
-                    "type": "Divider",
-                    "index": null,
-                    "visible": true,
-                    "text": "Blackhole ESP Settings",
-                    "properties": {
-                      "marginTop": 6,
-                      "marginBottom": 0,
-                      "text": "Blackhole ESP Settings"
-                    }
-                  },
-                  {
-                    "type": "Divider",
-                    "index": null,
-                    "visible": true,
-                    "text": "Banana ESP Settings",
-                    "properties": {
-                      "marginTop": 6,
-                      "marginBottom": 0,
-                      "text": "Banana ESP Settings"
-                    }
-                  },
-                  {
-                    "type": "Dropdown",
-                    "index": "PCLDESPType",
-                    "visible": true,
-                    "text": "PCLD ESP Type",
-                    "properties": {
-                      "values": [
-                        "Default",
-                        "New"
-                      ],
-                      "allownull": false
-                    },
-                    "disabled": false
-                  },
-                  {
-                    "type": "Slider",
-                    "index": "PCLDOutlineSize",
-                    "visible": true,
-                    "text": "Outline Size",
-                    "properties": {
-                      "min": 0,
-                      "max": 1,
-                      "rounding": 2,
-                      "compact": true
-                    },
-                    "disabled": false
-                  },
-                  {
-                    "type": "Toggle",
-                    "index": "PCLDRainbowFill",
-                    "visible": true,
-                    "text": "Rainbow Fill",
-                    "properties": {
-                      "addons": [],
-                      "risky": false,
-                      "variant": "Checkbox"
-                    },
-                    "value": false,
-                    "disabled": false
-                  },
-                  {
-                    "type": "Toggle",
-                    "index": "PCLDRainbowOutline",
-                    "visible": true,
-                    "text": "Rainbow Outline",
-                    "properties": {
-                      "addons": [],
-                      "risky": false,
-                      "variant": "Checkbox"
-                    },
-                    "value": false,
-                    "disabled": false
-                  },
-                  {
-                    "type": "Toggle",
-                    "index": "NameESPShowIcon",
-                    "visible": true,
-                    "text": "Show Icon",
-                    "properties": {
-                      "addons": [],
-                      "risky": false,
-                      "variant": "Checkbox"
-                    },
-                    "value": false,
-                    "disabled": false
-                  },
-                  {
-                    "type": "Slider",
-                    "index": "NameESPTextSize",
-                    "visible": true,
-                    "text": "Text size",
-                    "properties": {
-                      "min": 8,
-                      "max": 32,
-                      "rounding": 0,
-                      "compact": true
-                    },
-                    "disabled": false
-                  },
-                  {
-                    "type": "Toggle",
-                    "index": "NameESPRainbowFill",
-                    "visible": true,
-                    "text": "Rainbow Fill",
-                    "properties": {
-                      "addons": [],
-                      "risky": false,
-                      "variant": "Checkbox"
-                    },
-                    "value": false,
-                    "disabled": false
-                  },
-                  {
-                    "type": "Toggle",
-                    "index": "NameESPRainbowOutline",
-                    "visible": true,
-                    "text": "Rainbow Outline",
-                    "properties": {
-                      "addons": [],
-                      "risky": false,
-                      "variant": "Checkbox"
-                    },
-                    "value": false,
-                    "disabled": false
-                  },
-                  {
-                    "type": "Toggle",
-                    "index": "PlayerESPRainbowFill",
-                    "visible": true,
-                    "text": "Rainbow Fill",
-                    "properties": {
-                      "addons": [],
-                      "risky": false,
-                      "variant": "Checkbox"
-                    },
-                    "value": false,
-                    "disabled": false
-                  },
-                  {
-                    "type": "Toggle",
-                    "index": "PlayerESPRainbowOutline",
-                    "visible": true,
-                    "text": "Rainbow Fill",
-                    "properties": {
-                      "addons": [],
-                      "risky": false,
-                      "variant": "Checkbox"
-                    },
-                    "value": false,
-                    "disabled": false
-                  },
-                  {
-                    "type": "Toggle",
-                    "index": "StickyESPRainbowFill",
-                    "visible": true,
-                    "text": "Rainbow Fill",
-                    "properties": {
-                      "addons": [],
-                      "risky": false,
-                      "variant": "Checkbox"
-                    },
-                    "value": false,
-                    "disabled": false
-                  },
-                  {
-                    "type": "Toggle",
-                    "index": "StickyESPRainbowOutline",
-                    "visible": true,
-                    "text": "Rainbow Fill",
-                    "properties": {
-                      "addons": [],
-                      "risky": false,
-                      "variant": "Checkbox"
-                    },
-                    "value": false,
-                    "disabled": false
-                  },
-                  {
-                    "type": "Toggle",
-                    "index": "BlobmanESPRainbowFill",
-                    "visible": true,
-                    "text": "Rainbow Fill",
-                    "properties": {
-                      "addons": [],
-                      "risky": false,
-                      "variant": "Checkbox"
-                    },
-                    "value": false,
-                    "disabled": false
-                  },
-                  {
-                    "type": "Toggle",
-                    "index": "BlobmanESPRainbowOutline",
-                    "visible": true,
-                    "text": "Rainbow Fill",
-                    "properties": {
-                      "addons": [],
-                      "risky": false,
-                      "variant": "Checkbox"
-                    },
-                    "value": false,
-                    "disabled": false
-                  },
-                  {
-                    "type": "Toggle",
-                    "index": "BlackholeESPRainbowFill",
-                    "visible": true,
-                    "text": "Rainbow Fill",
-                    "properties": {
-                      "addons": [],
-                      "risky": false,
-                      "variant": "Checkbox"
-                    },
-                    "value": false,
-                    "disabled": false
-                  },
-                  {
-                    "type": "Toggle",
-                    "index": "BlackholeESPRainbowOutline",
-                    "visible": true,
-                    "text": "Rainbow Fill",
-                    "properties": {
-                      "addons": [],
-                      "risky": false,
-                      "variant": "Checkbox"
-                    },
-                    "value": false,
-                    "disabled": false
-                  },
-                  {
-                    "type": "Toggle",
-                    "index": "BananaESPRainbowFill",
-                    "visible": true,
-                    "text": "Rainbow Fill",
-                    "properties": {
-                      "addons": [],
-                      "risky": false,
-                      "variant": "Checkbox"
-                    },
-                    "value": false,
-                    "disabled": false
-                  },
-                  {
-                    "type": "Toggle",
-                    "index": "BananaESPRainbowOutline",
-                    "visible": true,
-                    "text": "Rainbow Fill",
-                    "properties": {
-                      "addons": [],
-                      "risky": false,
-                      "variant": "Checkbox"
-                    },
-                    "value": false,
-                    "disabled": false
                   }
                 ],
                 "icon": "settings"
               }
-            }
+            },
+            "icon": "layout-grid"
           }
         },
         "Unknown": []
@@ -2799,7 +2136,8 @@
                   "max": 120,
                   "rounding": 0
                 },
-                "disabled": false
+                "disabled": false,
+                "value": 70
               },
               {
                 "type": "Toggle",
@@ -3017,10 +2355,76 @@
       },
       "icon": "scroll",
       "groupboxes": {
-        "Right": {},
-        "Left": {},
+        "Right": {
+          "Immunitylist": {
+            "visible": true,
+            "type": "Groupbox",
+            "elements": [
+              {
+                "type": "Label",
+                "index": "Soon...",
+                "visible": true,
+                "text": "Soon...",
+                "properties": {
+                  "addons": [],
+                  "doesWrap": false
+                }
+              }
+            ],
+            "order": 1,
+            "dependencyBoxes": [],
+            "name": "Immunitylist",
+            "side": "Right",
+            "icon": "shield-user",
+            "collapsed": false,
+            "disableCollapsing": false
+          }
+        },
+        "Left": {
+          "Whitelist": {
+            "visible": true,
+            "type": "Groupbox",
+            "elements": [
+              {
+                "type": "Dropdown",
+                "index": "MultiWhitelist",
+                "visible": true,
+                "disabled": false,
+                "value": {},
+                "text": "Select Player",
+                "properties": {
+                  "values": [],
+                  "multi": true,
+                  "allowNull": true,
+                  "searchable": true
+                }
+              },
+              {
+                "type": "Toggle",
+                "index": "AutoAddFriendsWhitelist",
+                "visible": true,
+                "disabled": false,
+                "value": false,
+                "text": "Auto Add Friends",
+                "properties": {
+                  "addons": [],
+                  "risky": false,
+                  "variant": "Checkbox"
+                }
+              }
+            ],
+            "order": 1,
+            "dependencyBoxes": [],
+            "name": "Whitelist",
+            "side": "Left",
+            "icon": "user-round-check",
+            "collapsed": false,
+            "disableCollapsing": false
+          }
+        },
         "Unknown": []
-      }
+      },
+      "structure": {}
     },
     "<b>Misc</b>": {
       "type": "MainTab",
@@ -3105,14 +2509,126 @@
                   },
                   {
                     "type": "Label",
-                    "index": "Line Color  .. index",
+                    "index": "Line Color 1",
                     "visible": true,
-                    "text": "Line Color  .. index",
+                    "text": "Line Color 1",
                     "properties": {
                       "addons": [
                         {
                           "type": "ColorPicker",
-                          "title": "Color",
+                          "title": "Line Color 1",
+                          "value": "ffffff",
+                          "transparency": 0
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Label",
+                    "index": "Line Color 2",
+                    "visible": true,
+                    "text": "Line Color 2",
+                    "properties": {
+                      "addons": [
+                        {
+                          "type": "ColorPicker",
+                          "title": "Line Color 2",
+                          "value": "ffffff",
+                          "transparency": 0
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Label",
+                    "index": "Line Color 3",
+                    "visible": true,
+                    "text": "Line Color 3",
+                    "properties": {
+                      "addons": [
+                        {
+                          "type": "ColorPicker",
+                          "title": "Line Color 3",
+                          "value": "ffffff",
+                          "transparency": 0
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Label",
+                    "index": "Line Color 4",
+                    "visible": true,
+                    "text": "Line Color 4",
+                    "properties": {
+                      "addons": [
+                        {
+                          "type": "ColorPicker",
+                          "title": "Line Color 4",
+                          "value": "ffffff",
+                          "transparency": 0
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Label",
+                    "index": "Line Color 5",
+                    "visible": true,
+                    "text": "Line Color 5",
+                    "properties": {
+                      "addons": [
+                        {
+                          "type": "ColorPicker",
+                          "title": "Line Color 5",
+                          "value": "ffffff",
+                          "transparency": 0
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Label",
+                    "index": "Line Color 6",
+                    "visible": true,
+                    "text": "Line Color 6",
+                    "properties": {
+                      "addons": [
+                        {
+                          "type": "ColorPicker",
+                          "title": "Line Color 6",
+                          "value": "ffffff",
+                          "transparency": 0
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Label",
+                    "index": "Line Color 7",
+                    "visible": true,
+                    "text": "Line Color 7",
+                    "properties": {
+                      "addons": [
+                        {
+                          "type": "ColorPicker",
+                          "title": "Line Color 7",
+                          "value": "ffffff",
+                          "transparency": 0
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Label",
+                    "index": "Line Color 8",
+                    "visible": true,
+                    "text": "Line Color 8",
+                    "properties": {
+                      "addons": [
+                        {
+                          "type": "ColorPicker",
+                          "title": "Line Color 8",
                           "value": "ffffff",
                           "transparency": 0
                         }
@@ -3138,7 +2654,8 @@
                 ],
                 "icon": "settings"
               }
-            }
+            },
+            "icon": "dollar-sign"
           }
         },
         "Unknown": []
@@ -3686,16 +3203,6 @@
                     "disabled": false
                   },
                   {
-                    "type": "Divider",
-                    "index": null,
-                    "visible": true,
-                    "text": "",
-                    "properties": {
-                      "marginTop": 0,
-                      "marginBottom": 0
-                    }
-                  },
-                  {
                     "type": "Slider",
                     "index": "ZoomSpeed",
                     "visible": true,
@@ -3710,16 +3217,6 @@
                     "disabled": false
                   },
                   {
-                    "type": "Divider",
-                    "index": null,
-                    "visible": true,
-                    "text": "",
-                    "properties": {
-                      "marginTop": 0,
-                      "marginBottom": 0
-                    }
-                  },
-                  {
                     "type": "Slider",
                     "index": "JerkOffSpeedSlider",
                     "visible": true,
@@ -3732,16 +3229,6 @@
                     },
                     "value": 1,
                     "disabled": false
-                  },
-                  {
-                    "type": "Divider",
-                    "index": null,
-                    "visible": true,
-                    "text": "",
-                    "properties": {
-                      "marginTop": 0,
-                      "marginBottom": 0
-                    }
                   },
                   {
                     "type": "Dropdown",
@@ -3975,7 +3462,8 @@
                 ],
                 "icon": "settings"
               }
-            }
+            },
+            "icon": "layout-grid"
           }
         },
         "Unknown": []
@@ -4012,7 +3500,7 @@
         "Text": "",
         "LockSize": false
       },
-      "icon": "bell-check",
+      "icon": "bell-dot",
       "groupboxes": {
         "Right": {
           "Target": {
@@ -4076,7 +3564,7 @@
             "dependencyBoxes": [],
             "name": "Target",
             "side": "Right",
-            "icon": "crosshair",
+            "icon": "circle-user-round",
             "collapsed": false,
             "disableCollapsing": false
           },
@@ -4381,6 +3869,72 @@
             "icon": "bell-dot",
             "collapsed": false,
             "disableCollapsing": false
+          },
+          "Configs": {
+            "visible": true,
+            "type": "Groupbox",
+            "elements": [
+              {
+                "type": "Input",
+                "index": "SaveManager_ConfigName",
+                "visible": true,
+                "disabled": false,
+                "value": "",
+                "text": "Config Name",
+                "properties": {
+                  "placeholder": "Config name",
+                  "allowEmpty": true
+                }
+              },
+              {
+                "type": "Dropdown",
+                "index": "SaveManager_ConfigList",
+                "visible": true,
+                "disabled": false,
+                "value": "",
+                "text": "Config",
+                "properties": {
+                  "values": [],
+                  "multi": false,
+                  "searchable": true
+                }
+              },
+              {
+                "type": "Button",
+                "index": "SaveManager_SaveConfig",
+                "visible": true,
+                "text": "Save Config",
+                "properties": {}
+              },
+              {
+                "type": "Button",
+                "index": "SaveManager_LoadConfig",
+                "visible": true,
+                "text": "Load Config",
+                "properties": {}
+              },
+              {
+                "type": "Button",
+                "index": "SaveManager_DeleteConfig",
+                "visible": true,
+                "text": "Delete Config",
+                "properties": {}
+              },
+              {
+                "type": "Button",
+                "index": "SaveManager_RefreshConfigList",
+                "visible": true,
+                "text": "Refresh List",
+                "properties": {}
+              }
+            ],
+            "order": 3,
+            "dependencyBoxes": [],
+            "name": "Configs",
+            "side": "Right",
+            "icon": "folder-cog",
+            "collapsed": false,
+            "disableCollapsing": false
           }
         },
         "Left": {
@@ -4498,6 +4052,39 @@
             "name": "Background",
             "side": "Left",
             "icon": "image",
+            "collapsed": false,
+            "disableCollapsing": false
+          },
+          "Themes": {
+            "visible": true,
+            "type": "Groupbox",
+            "elements": [
+              {
+                "type": "Dropdown",
+                "index": "ThemeManager_ThemeList",
+                "visible": true,
+                "disabled": false,
+                "value": "Default",
+                "text": "Theme",
+                "properties": {
+                  "values": [],
+                  "multi": false,
+                  "searchable": true
+                }
+              },
+              {
+                "type": "Button",
+                "index": "ThemeManager_LoadTheme",
+                "visible": true,
+                "text": "Load Theme",
+                "properties": {}
+              }
+            ],
+            "order": 3,
+            "dependencyBoxes": [],
+            "name": "Themes",
+            "side": "Left",
+            "icon": "palette",
             "collapsed": false,
             "disableCollapsing": false
           }
